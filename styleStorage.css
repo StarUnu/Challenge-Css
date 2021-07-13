@@ -16,11 +16,6 @@
   border-radius: 31px;
 }
 
-.storage__line {
-  display: flex;
-  justify-content: flex-start;
-}
-
 .resumenData-circle {
   display: flex;
   flex-direction: column;
@@ -69,8 +64,14 @@
 
 .storage__line {
   border: 1px solid #e0e7f1;
-  margin: 5% 0%;
+  margin: 3% 0%;
   width: 98%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.storage-line-rows {
+  border: 1px solid #e0e7f1;
 }
 
 .storage_setting {

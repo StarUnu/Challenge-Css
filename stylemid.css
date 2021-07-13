@@ -106,13 +106,15 @@
 .shared-grid {
   display: grid;
   grid-template-columns: 40px 40px 40px;
-  grid-template-rows: 20px 20px;
-  grid-gap: 20px;
+  grid-template-rows: 30px 20px;
+  grid-gap: 10px;
   background-color: #ffffff;
-  padding: 8px;
+  padding: 25px;
   border-radius: 10px;
 }
-
+.shared-grid {
+  padding: 10px;
+}
 .grid-icons {
   display: flex;
   flex-direction: row;
@@ -181,6 +183,13 @@
   margin: 6px 0px 0px 0px;
 }
 .name-project {
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 14px;
+  color: #343951;
+}
+.name-page {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   line-height: 14px;
@@ -204,7 +213,7 @@ section {
   font-size: 20px;
   line-height: 23px;
   color: #343951;
-  margin-top: 26px;
+  margin-top: 16px;
   margin-bottom: 14px;
 }
 .recently-rectangle__div {
@@ -235,7 +244,7 @@ section {
   align-items: center;
   justify-content: space-between;
   background-color: #ffffff;
-  margin-top: 1%;
+  margin-top: 2%;
   padding: 1%;
 }
 
@@ -260,19 +269,13 @@ section {
 
 .color__ellipseGreen {
   border: 1px solid #4ac29d;
-  width: 18px;
-  height: 18px;
 }
 
 .color__ellipsePink {
   border: 1px solid #ff6860;
-  width: 18px;
-  height: 18px;
 }
 .color__ellipseYellow {
   border: 1px solid #ff9f00;
-  width: 18px;
-  height: 18px;
 }
 @media (min-width: 500px) {
   .col-1-1 {
@@ -322,6 +325,10 @@ section {
     grid-row: 1/2;
   }
   .name-project {
+    grid-column: 1/4;
+    grid-row: 2/3;
+  }
+  .name-page {
     grid-column: 1/4;
     grid-row: 2/3;
   }

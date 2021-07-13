@@ -2,14 +2,9 @@
 .rectangleRecently {
   width: 15px;
   height: 15px;
-  border: 1px solid #131212;
-  box-sizing: border-box;
   margin-right: 10%;
+  background-color: #c8ccdb;
   align-self: flex-end;
-}
-.rectangleRecently-active {
-  border: 1px solid #9d9faf;
-  box-sizing: border-box;
 }
 
 .twoRectangle {
@@ -81,6 +76,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  border: 1px solid #c8ccdb;
 }
 .search__i {
   background-color: white;
@@ -105,11 +101,11 @@
 .project-grid,
 .shared-grid {
   display: grid;
-  grid-template-columns: 40px 40px 40px;
+  grid-template-columns: 50px 50px 40px;
   grid-template-rows: 30px 20px;
   grid-gap: 10px;
   background-color: #ffffff;
-  padding: 25px;
+  padding: 15px;
   border-radius: 10px;
 }
 .shared-grid {
@@ -121,30 +117,35 @@
 }
 .recentlyFiles-div,
 .shareFiles-div {
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 12px;
   line-height: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #858a9d;
 }
-.Rectangle-2 {
-  margin: 0px -5px;
-  z-index: 1;
+/*amarillo fuerte*/
+.Rectangle-1 {
+  margin: 0px 0px;
+  z-index: 2;
+  border-radius: 4px;
 }
 
-.Rectangle-1 {
-  z-index: 2;
+.Rectangle-2 {
+  /*el amarillo poco fuerte fuerte */
+  margin: -5px -5px -5px -5px;
+  z-index: 1;
+  align-self: flex-end;
+  border-radius: 4px;
 }
 
 .ellipse {
-  width: 18px;
-  height: 18px;
+  width: 24px;
+  height: 24px;
   justify-self: start;
   align-self: flex-end;
 
   border-radius: 20px;
-  background: #ffffff;
-  border: 1px solid #bec0c8;
+  background: #c8ccdb;
+  border: 2px solid #ffffff;
   box-sizing: border-box;
 }
 
@@ -172,6 +173,8 @@
 }
 .ellipse__number {
   font-size: 10px;
+  color: #ffffff;
+  background-color: #858a9d;
 }
 .Ellipse-pto1 {
   margin: -6px 0px 0px 0px;
@@ -184,19 +187,17 @@
 }
 .name-project {
   margin-top: 10px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 14px;
   color: #343951;
 }
 .name-page {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   line-height: 14px;
   color: #343951;
 }
 .info-project {
-  size: 8px;
+  font-size: 10px;
   color: #858a9d;
 }
 
@@ -207,10 +208,9 @@
 }
 
 section {
-  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 23px;
   color: #343951;
   margin-top: 16px;
@@ -246,6 +246,10 @@ section {
   background-color: #ffffff;
   margin-top: 2%;
   padding: 1%;
+}
+
+.recentlyFiles-header {
+  font-size: 10px;
 }
 
 .recentFiles__items {
@@ -301,14 +305,17 @@ section {
     grid-row: 1/2;
   }
   .Ellipse-1 {
+    align-self: flex-start;
     grid-column: 2 / 3;
     grid-row: 1/2;
   }
   .Ellipse-2 {
+    align-self: flex-start;
     grid-column: 2 / 3;
     grid-row: 1/2;
   }
   .Ellipse-3 {
+    align-self: flex-start;
     grid-column: 2 / 3;
     grid-row: 1/2;
   }

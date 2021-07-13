@@ -9,7 +9,7 @@
   display: grid;
   margin: 0% 0% 0% 0%;
   grid-template-columns: 200px 750px 1fr; /*repeat(2, 1fr);*/ /*repeat(3, 1fr);*/
-  grid-template-rows: 1fr;
+  grid-template-rows: 100vh;
   height: 100%;
   grid-gap: 1em;
   font-family: "Roboto", sans-serif;
@@ -186,4 +186,8 @@ a {
   margin-left: 5px;
   padding: 4px;
   color: #858a9d;
+}
+
+.activate_row {
+  background-color: #c8ccdb;
 }

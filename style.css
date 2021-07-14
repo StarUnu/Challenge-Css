@@ -7,9 +7,8 @@
 .wrapper {
   background-color: #fff;
   display: grid;
-  margin: 0% 0% 0% 0%;
-  grid-template-columns: 200px 750px 1fr; /*repeat(2, 1fr);*/ /*repeat(3, 1fr);*/
-  grid-template-rows: 100vh;
+  grid-template-columns: 17% 60% 20%;/*px 750px 1fr;*/ /*repeat(2, 1fr);*/ /*repeat(3, 1fr);*/
+  grid-template-rows: 100%;
   height: 100%;
   grid-gap: 1em;
   font-family: "Roboto", sans-serif;
@@ -73,9 +72,9 @@ a {
 }
 
 .btn-createNew {
-  padding: 4%;
+  padding: 5%;
   border-radius: 7px;
-  font-size: 10px;
+  font-size: 16px;
   background-color: #ff9f00;
   justify-content: flex-end;
   margin-bottom: 40px;
@@ -87,7 +86,7 @@ a {
 }
 
 .btnNew-toolpit .btnNew-toolpit__tooltiptext {
-  visibility: hidden;
+  
   width: 150px;
   background-color: #464c61;
   color: #f5f6fc;
@@ -190,4 +189,8 @@ a {
 
 .activate_row {
   background-color: #c8ccdb;
+}
+
+.space-rectangle__toolpit{
+  margin-left: 7px;
 }

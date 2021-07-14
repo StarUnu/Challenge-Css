@@ -201,21 +201,14 @@
   color: #858a9d;
 }
 
-.block,
+.blockPart1,
 .shareFiles-blocks {
   display: flex;
+  flex: 0 0 95%;
   justify-content: space-around;
 }
 
-section {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 23px;
-  color: #343951;
-  margin-top: 16px;
-  margin-bottom: 14px;
-}
+
 .recently-rectangle__div {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -281,6 +274,8 @@ section {
 .color__ellipseYellow {
   border: 1px solid #ff9f00;
 }
+
+
 @media (min-width: 500px) {
   .col-1-1 {
     flex: 1 0 46%;
@@ -343,4 +338,22 @@ section {
     grid-column: 1/4;
     grid-row: 3/4;
   }
+.col1-fil1,
+.col1-fil2,
+.col1-fil3{
+    flex: 0 0 23%;
+  }
+
+}
+
+
+
+@media (max-width: 800px) {
+  .blockPart1,
+  .shareFiles-blocks{
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;
+  }
+
 }

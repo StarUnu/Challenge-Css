@@ -133,7 +133,7 @@
 .grid-documents {
   font-size: 14px;
   display: grid;
-  grid-template-columns: 28px 80px 28px 1fr 28px;
+  grid-template-columns: 28px 80px 70px  28px;
   grid-template-rows: 15px 25px 1px;
   justify-content: center;
   justify-items: center;

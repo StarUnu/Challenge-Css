@@ -1,6 +1,7 @@
 .rectangle {
   border-radius: 4px;
-  border-width: 0ch;
+  width: 10.7%;
+  height: 24px;
 }
 
 .color-yellow {

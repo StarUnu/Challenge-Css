@@ -69,6 +69,7 @@
   justify-content: flex-start;
 }
 
+
 .storage-line-rows {
   width: 100%;
   background-color:#e0e7f1 ;
@@ -98,13 +99,7 @@
   height: 18px;
 }
 
-.big-icon-rectangle {
-  width: 28px;
-  height: 28px;
-  box-sizing: border-box;
-  border-radius: 5px;
-  align-self: flex-start;
-}
+
 
 .percentage-storage {
   font-size: 24px;
@@ -168,7 +163,7 @@
 .central-store-upgrade {
   display: flex;
   justify-content: center;
-  padding: 10%;
+  padding: 5%;
 }
 
 .box-upgrade {

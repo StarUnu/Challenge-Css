@@ -17,13 +17,11 @@
     <div class="wrapper">
       <!-- Here start Sidebar (the first colum)n -->
       <div class="grid-sidebar">
-        <div style="width: 100%">
-          <div style="margin-left: 15%">
-            <div class="menu-sidebar__rectangleColor rectangleColor"></div>
-            <div class="menu-items">
-              <items class="grid-sidebar__items">
+             <div class="menu-sidebar__rectangleColor rectangleColor"></div>
+              <items class="grid-sidebar__items grid-sidebar__itemsFIRST">
+                <div class="indicator"></div>
                 <span class="rectangle activate_row"></span>
-                <a href="#" style="color: #ffffff;"> Home</a>
+                <a href="#" class="home__activateNB"> Home</a>
               </items>
               <items class="grid-sidebar__items">
                 <span class="rectangle"></span>
@@ -45,37 +43,41 @@
                 <span class="rectangle"></span>
                 <a href="#">Trash</a>
               </items>
-            </div>
-          </div>
-          <!-- <div class="grid-sidebar__line"></div> -->
-        </div>
-
-        <div class="btn-createNew btnNew-toolpit">
-          <i class="fas fa-plus plus__margin"></i> 
-          Create New
+            
+            
           <div class="btnNew-toolpit__tooltiptext">
             <div class="btnNew-toolpit__items">
-              <span class="rectangle space-rectangle__toolpit"></span> Files Upload
-            </div>
-
-            <div class="btnNew-toolpit__items">
-              <span class="rectangle space-rectangle__toolpit"></span>folder
+              <span class="small__rectangle"></span>
+              Files Upload
             </div>
             <div class="btnNew-toolpit__items">
-              <span class="rectangle space-rectangle__toolpit"></span>New folder
+              <span class="small__rectangle  "></span>folder
             </div>
+            
             <div class="btnNew-toolpit__items">
-              <span class="rectangle space-rectangle__toolpit"></span>More
+              <span class="small__rectangle  "></span>New folder
+            </div>
+            <div class="btnNew-toolpit__itemsLAST">
+              <span class="small__rectangle  "></span>More
             </div>
           </div>
+          <div class="arrow-down"></div> 
+        <div class="btn-createNew ">
+          <i class="fas fa-plus plus__margin"></i> 
+          <div class="btn-createNew__text-margin">Create New </div> 
         </div>
+ 
       </div>
 
       <!-- Here start Rencetly Used  (the column of the half) -->
       <div class="grid-data">
-        <span class="search"
-          ><i class="fas fa-search "></i>
-          <input class="search-input" type="text" placeholder="Search " />
+        <span class="search">
+          <div class="circle-search"></div>
+          <div class="palito-search"></div>
+          
+          <!-- <i class="fas fa-search icon-search "></i> -->
+          <!-- <input class="search-input" type="text" placeholder="Search... " /> -->
+          <div class="search-input"> Search...  </div>
         </span>
 
         <div class="recentlyU">
@@ -100,8 +102,13 @@
               <div class="ellipse-pto Ellipse-pto1"></div>
               <div class="ellipse-pto Ellipse-pto2"></div>
               <div class="ellipse-pto Ellipse-pto3"></div>
-              <div class="name-project"> App Project</div>
-              <div class="info-project">Created; 20.02.2020</div>
+              <div class="description-project">
+                <div class="name-project"> App Project</div>
+                <div class="info-project">
+                  <div class="recentlyUsed-created_name">Created:</div>
+                  <div class="date-recently"> March 10, 2021  </div> 
+                </div>
+              </div>
             </div>
 
             <div class="project-grid col1-fil2">
@@ -115,8 +122,12 @@
               <div class="ellipse-pto Ellipse-pto1"></div>
               <div class="ellipse-pto Ellipse-pto2"></div>
               <div class="ellipse-pto Ellipse-pto3"></div>
-              <div class="name-project">Project: fitbit</div>
-              <div class="info-project">Created: 28.02.2020</div>
+              
+              <div class="description-project">
+                <div class="name-project">Client Documents</div>
+              <div class="info-project"><div class="recentlyUsed-created_name">Created:</div> March 10, 2021 </div>
+              </div>
+              
             </div>
 
             <div class="project-grid col1-fil3">
@@ -131,49 +142,54 @@
               <div class="ellipse-pto Ellipse-pto1"></div>
               <div class="ellipse-pto Ellipse-pto2"></div>
               <div class="ellipse-pto Ellipse-pto3"></div>
+              <div class="description-project">
               <div class="name-project">Client Documents</div>
-              <div class="info-project">Created: 4.03.2020</div>
+              <div class="info-project"><div class="recentlyUsed-created_name">Created:</div> March 10, 2021 </div>
+            </div>
             </div>
           </div>
         </div>
 
-        <div class="recentlyFiles">
+        <div class="view-all__settings">
           <section>Recently files</section>
           <div class="recentlyFiles-div">View All</div>
         </div>
-        <div class="recentlyFiles recentlyFiles-setting__header">
-          <div class="recentFiles__items col-1-1 recentlyFiles-header" >Name</div>
-          <div class="recentFiles__items col-1-2">Menbers</div>
-          <div class="recentFiles__items col-1-3">Last Modified</div>
-          <div class="recentFiles__items col-1-4"></div>
+
+        <div  class="recentfiles">
+        <div class="recentlyFiles-header ">
+          <div class="col-1-1-head">
+          <div class="recentFiles__items  recentFiles-width__itemHEAD  " >Name</div>
+          </div>
+
+          <div class="recentFiles__items  col-1-2-head ">Members</div>
+          <div class="recentFiles__items  col-1-3">Last Modified</div>
+          <div class="recentFiles__items  col-1-4"></div>
+          
         </div>
 
         <div class="recentlyFiles-row">
           <div class="col-1-1">
-            <div class="grid-recentFiles__items name-1 setting-name">
-              <span class="yellow-rectangle"> </span>
-              Travel Landing Page
-            </div>
+            <span class="medium-rectangle color-yellow"> </span>
+            <div class="recentFiles-name__div recentFiles-margin__items"> Travel Landing Page </div>
           </div>
-          <div class="recentFiles__items col-1-2">5 members</div>
-          <div class="recentFiles__items col-1-3">Mar 8, 2020</div>
+          <div class="recentFiles__items col-1-2 recentFiles-margin__items">5 members</div>
+          <div class="recentFiles__items col-1-3 recentFiles-margin__items">Mar 8, 2020</div>
           <div class="col-1-4 recentFiles__items ptos">
             <div class="ellipse-pto Ellipse-pto1__h1"></div>
             <div class="ellipse-pto Ellipse-pto2__h1"></div>
             <div class="ellipse-pto Ellipse-pto3__h1"></div>
           </div>
+          
         </div>
 
         <div class="recentlyFiles-row">
           <div class="col-1-1">
-            <div class="grid-recentFiles__items name-1 setting-name">
-              <span class="green-rectangle"> </span>
-              Travel Landing Page
-            </div>
+            <span class="medium-rectangle color-green"> </span>
+            <div class="recentFiles-name__div recentFiles-margin__items"> Travel Landing Page </div>
           </div>
-          <div class="recentFiles__items col-1-2">12 members</div>
-          <div class="recentFiles__items col-1-3">Mar 8, 2020</div>
-          <div class="col-1-4 grid-recentFiles__items ptos">
+          <div class="recentFiles__items col-1-2 recentFiles-margin__items">5 members</div>
+          <div class="recentFiles__items col-1-3 recentFiles-margin__items">Mar 8, 2020</div>
+          <div class="col-1-4 ptos">
             <div class="ellipse-pto Ellipse-pto1__h1"></div>
             <div class="ellipse-pto Ellipse-pto2__h1"></div>
             <div class="ellipse-pto Ellipse-pto3__h1"></div>
@@ -182,14 +198,12 @@
 
         <div class="recentlyFiles-row">
           <div class="col-1-1">
-            <div class="grid-recentFiles__items name-1 setting-name">
-              <span class="pink-rectangle"> </span>
-              Travel Landing Page
-            </div>
+            <span class="medium-rectangle color-pink"> </span>
+            <div class="recentFiles-name__div recentFiles-margin__items"> Travel Landing Page </div>
           </div>
-          <div class="recentFiles__items col-1-2">10 members</div>
-          <div class="recentFiles__items col-1-3">Mar 9, 2020</div>
-          <div class="col-1-4 grid-recentFiles__items ptos">
+          <div class="recentFiles__items col-1-2 recentFiles-margin__items">5 members</div>
+          <div class="recentFiles__items col-1-3 recentFiles-margin__items ">Mar 8, 2020</div>
+          <div class="col-1-4 ptos">
             <div class="ellipse-pto Ellipse-pto1__h1"></div>
             <div class="ellipse-pto Ellipse-pto2__h1"></div>
             <div class="ellipse-pto Ellipse-pto3__h1"></div>
@@ -198,54 +212,70 @@
 
         <div class="recentlyFiles-row">
           <div class="col-1-1">
-            <div class="grid-recentFiles__items name-1 setting-name">
-              <span class="yellow-rectangle"> </span>
-              Travel Landing Page
-            </div>
+            <span class="medium-rectangle color-blue"> </span>
+            <div class="recentFiles-name__div recentFiles-margin__items"> Travel Landing Page </div>
           </div>
-          <div class="recentFiles__items col-1-2">3 members</div>
-          <div class="recentFiles__items col-1-3">Mar 10, 2020</div>
-          <div class="col-1-4 grid-recentFiles__items ptos">
+          <div class="recentFiles__items col-1-2 recentFiles-margin__items">5 members</div>
+          <div class="recentFiles__items col-1-3 recentFiles-margin__items">Mar 8, 2020</div>
+          <div class="col-1-4 ptos">
             <div class="ellipse-pto Ellipse-pto1__h1"></div>
             <div class="ellipse-pto Ellipse-pto2__h1"></div>
             <div class="ellipse-pto Ellipse-pto3__h1"></div>
           </div>
         </div>
-
+      </div>
         <div class="shareFiles">
-          <section>Share with me</section>
+          <section>Shared with me</section>
           <div class="shareFiles-div">View All</div>
         </div>
         <div class="shareFiles-blocks">
           <div class="shared-grid">
-            <div class="twoRectangle Rectangle-1"></div>
-            <div class="ellipse Ellipse-1 "></div>
-            <div class="ellipse Ellipse-2 "></div>
-            <div class="ellipse Ellipse-3 "></div>
-            <div class="name-page">Landing Page</div>
-            <div class="info-project">Created: 20.02.2020</div>
+            <div class="Rectangle-1__sharedGrid medium-rectangle color-yellow"></div>
+            <div class="ellipse Ellipse-1 position-ellipse"></div>
+            <div class="ellipse Ellipse-2 position-ellipse"></div>
+            <div class="ellipse Ellipse-3 position-ellipse"></div>
+            <div class="info">
+              <div class="name-page">Landing Page</div>
+              <div class="info-project">
+                <div class="sharedwithme-created_name">Created:</div> 
+                <div class="date-project">March 10, 2021</div>  
+              </div>
+            </div>
           </div>
-
+    
           <div class="shared-grid">
-            <div class="twoRectangle Rectangle-1"></div>
-            <div class="ellipse Ellipse-1 "></div>
-            <div class="ellipse Ellipse-2 "></div>
-            <div class="ellipse Ellipse-3 "></div>
-            <div class="name-page">Illustration Pack</div>
-            <div class="info-project">Created: 20.02.2020</div>
+            <div class="Rectangle-1__sharedGrid medium-rectangle color-yellow"></div>
+            
+              <div class="ellipse Ellipse-1 "></div>
+              <div class="ellipse Ellipse-2 "></div>
+              <div class="ellipse Ellipse-3 "></div>
+            <div class="info">
+              <div class="name-page">Illustration Pack</div>
+              <div class="info-project">
+                <div class="sharedwithme-created_name">Created:</div> 
+                <div class="date-project">March 10, 2021</div>  
+              </div>
+            </div>
           </div>
-
+        
           <div class="shared-grid">
-            <div class="twoRectangle Rectangle-1"></div>
+            <div class="Rectangle-1__sharedGrid medium-rectangle color-yellow"></div>
             <div class="ellipse Ellipse-1 "></div>
             <div class="ellipse Ellipse-2 "></div>
-            <div class="ellipse Ellipse-3 "></div>            
-            <div class="name-page">CV Design</div>
-            <div class="info-project">Created: 20.02.2020</div>
+            <div class="ellipse Ellipse-3 "></div> 
+            <div class="info">
+              <div class="name-page">CV Design</div>
+              <div class="info-project">
+                <div class="sharedwithme-created_name">Created:</div> 
+                <div class="date-project">March 10, 2021</div>
+              </div>
+            </div> 
           </div>
-        </div>
+        </div> 
 
       </div>
+
+      <div class="between-line__mediumStorage"></div>
       <!-- Here start store the (last column) -->
       <div class="grid-resumenData">
         
@@ -290,7 +320,7 @@
       <div class="review-documents">
         <div class="documents-row">
             <div class="grid-documents">
-                <span class="big-icon-rectangle color-yellow rectangle-documents__1"> </span>
+                <span class="medium-rectangle color-yellow rectangle-documents__1"> </span>
                 <div class="setting-text documents1"> Documents</div>
                 <div class="files1"> 720 files </div>
                 <div class="storage-line-rows"></div>
@@ -303,7 +333,7 @@
         
         <div class="documents-row">
             <div class="grid-documents">
-                <span class="big-icon-rectangle color-blue rectangle-documents__1"> </span>
+                <span class="medium-rectangle color-blue rectangle-documents__1"> </span>
                 <div class="setting-text documents1"> Documents</div>
                 <div class="files1"> 720 files </div>
                 <div class="storage-line-rows"></div>
@@ -313,7 +343,7 @@
 
         <div class="documents-row">
             <div class="grid-documents">
-                <span class="big-icon-rectangle color-green rectangle-documents__1"> </span>
+                <span class="medium-rectangle color-green rectangle-documents__1"> </span>
                 <div class="setting-text documents1"> Documents</div>
                 <div class="files1"> 720 files </div>
                 <div class="grid-documents__data1">75G</div>
@@ -323,7 +353,7 @@
         
         <div class="documents-row">
             <div class="grid-documents">
-                <span class="big-icon-rectangle color-grey rectangle-documents__1"> </span>
+                <span class="medium-rectangle color-grey rectangle-documents__1"> </span>
                 <div class="setting-text documents1"> Documents</div>
                 <div class="files1"> 720 files </div>
                 <div class="grid-documents__data1">50G</div>
@@ -334,7 +364,7 @@
     </div>
         </div>
         
-        <div class="central-store-upgrade">
+      <div class="central-store-upgrade">
             <div class="box-upgrade">
                 <div class="storage-upgrade">
                     <div class="rectangleColor storage_rectangle "></div>

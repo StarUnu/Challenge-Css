@@ -1,7 +1,31 @@
+:root {
+  --hight40: 3.90625vh;
+  --hight24: 2.34375vh;
+  --hight384Space:37.5vh;
+  --hight120:11.711vh;
+}
 .rectangle {
   border-radius: 4px;
-  width: 10.7%;
+  border: none;
+  /* width: 10.714%; */
+ /*  height: 3.90625%; */
+}
+
+.small__rectangle {
+  width: 16px;/* 1.11vw; */
+  height: 16px;/* 1.5625vh; */
+  border-radius: 4px;
+  background-color: #858A9D;
+  margin-right: 3.5714%;
+ /*  width: 7.14285%;
+  height: 1.5625%; */
+}
+
+.medium-rectangle {
+  width: 24px;
   height: 24px;
+  border-radius: 4px;
+  background-color: #858A9D;
 }
 
 .color-yellow {
@@ -17,13 +41,18 @@
   background: #bcbeca;
 }
 
+.color-pink {
+  background: #ff6860;
+}
 
 section {
+  font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 24px;
   line-height: 23px;
   color: #343951;
-  margin-top: 3%;
-  margin-bottom: 4%;
+  /* margin-left: 2.7777vw; */
+  /* margin-top: 3%; */
+  margin-bottom: 2.3437vh;
 }

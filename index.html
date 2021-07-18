@@ -20,27 +20,27 @@
              <div class="menu-sidebar__rectangleColor rectangleColor"></div>
               <items class="grid-sidebar__items grid-sidebar__itemsFIRST">
                 <div class="indicator"></div>
-                <span class="rectangle activate_row"></span>
+                <span class="grid-sidebar__rectangle activate_row"></span>
                 <a href="#" class="home__activateNB"> Home</a>
               </items>
               <items class="grid-sidebar__items">
-                <span class="rectangle"></span>
+                <span class="grid-sidebar__rectangle"></span>
                 <a href="#"> My files</a>
               </items>
               <items class="grid-sidebar__items">
-                <span class="rectangle"></span>
+                <span class="grid-sidebar__rectangle"></span>
                 <a href="#">Recent Files</a>
               </items>
               <items class="grid-sidebar__items">
-                <span class="rectangle"></span>
+                <span class="grid-sidebar__rectangle"></span>
                 <a href="#">Shared Filed</a>
               </items>
               <items class="grid-sidebar__items">
-                <span class="rectangle"></span>
+                <span class="grid-sidebar__rectangle"></span>
                 <a href="#">File Request</a>
               </items>
               <items class="grid-sidebar__items">
-                <span class="rectangle"></span>
+                <span class="grid-sidebar__rectangle"></span>
                 <a href="#">Trash</a>
               </items>
             
@@ -63,8 +63,13 @@
           </div>
           <div class="arrow-down"></div> 
         <div class="btn-createNew ">
-          <i class="fas fa-plus plus__margin"></i> 
+          <!-- <i class="fas fa-plus plus__margin"></i>  -->
+          
+          <div class="plus-vertical"></div>
+          <div class="plus-horizontal"></div>
+          
           <div class="btn-createNew__text-margin">Create New </div> 
+          
         </div>
  
       </div>
@@ -75,7 +80,7 @@
           <div class="circle-search"></div>
           <div class="palito-search"></div>
           
-          <!-- <i class="fas fa-search icon-search "></i> -->
+         <!--  <i class="fas fa-search icon-search setting-icon"></i> -->
           <!-- <input class="search-input" type="text" placeholder="Search... " /> -->
           <div class="search-input"> Search...  </div>
         </span>
@@ -175,9 +180,9 @@
           <div class="recentFiles__items col-1-2 recentFiles-margin__items">5 members</div>
           <div class="recentFiles__items col-1-3 recentFiles-margin__items">Mar 8, 2020</div>
           <div class="col-1-4 recentFiles__items ptos">
-            <div class="ellipse-pto Ellipse-pto1__h1"></div>
-            <div class="ellipse-pto Ellipse-pto2__h1"></div>
-            <div class="ellipse-pto Ellipse-pto3__h1"></div>
+            <div class="ellipse-pto "></div>
+            <div class="ellipse-pto "></div>
+            <div class="ellipse-pto "></div>
           </div>
           
         </div>
@@ -231,9 +236,9 @@
         <div class="shareFiles-blocks">
           <div class="shared-grid">
             <div class="Rectangle-1__sharedGrid medium-rectangle color-yellow"></div>
-            <div class="ellipse Ellipse-1 position-ellipse"></div>
-            <div class="ellipse Ellipse-2 position-ellipse"></div>
-            <div class="ellipse Ellipse-3 position-ellipse"></div>
+            <div class="ellipse Ellipse-1__End "></div>
+            <div class="ellipse Ellipse-2__End "></div>
+            <div class="ellipse Ellipse-3__End "></div>
             <div class="info">
               <div class="name-page">Landing Page</div>
               <div class="info-project">
@@ -246,9 +251,9 @@
           <div class="shared-grid">
             <div class="Rectangle-1__sharedGrid medium-rectangle color-yellow"></div>
             
-              <div class="ellipse Ellipse-1 "></div>
-              <div class="ellipse Ellipse-2 "></div>
-              <div class="ellipse Ellipse-3 "></div>
+              <div class="ellipse Ellipse-1__End "></div>
+              <div class="ellipse Ellipse-2__End "></div>
+              <div class="ellipse Ellipse-3__End "></div>
             <div class="info">
               <div class="name-page">Illustration Pack</div>
               <div class="info-project">
@@ -260,9 +265,9 @@
         
           <div class="shared-grid">
             <div class="Rectangle-1__sharedGrid medium-rectangle color-yellow"></div>
-            <div class="ellipse Ellipse-1 "></div>
-            <div class="ellipse Ellipse-2 "></div>
-            <div class="ellipse Ellipse-3 "></div> 
+            <div class="ellipse Ellipse-1__End "></div>
+            <div class="ellipse Ellipse-2__End "></div>
+            <div class="ellipse Ellipse-3__End "></div> 
             <div class="info">
               <div class="name-page">CV Design</div>
               <div class="info-project">
@@ -294,9 +299,10 @@
         <div class="stograge">
         <section class="storage_setting">Storage</section>
         <div class="resumenData-circle">
-        <svg width="100px" height="100px" viewBox="0 0 42 42" class="donut">
+        <svg width="50px" height="50px" viewBox="0 0 42 42 " class="donut">
           
-         <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#fff"></circle> 
+         <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="var(--background)"></circle> 
+         <circle class="donut-hole" cx="21" cy="21" r="12.91549430918954" fill="#fff"></circle> 
 
           <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#4AC29D" stroke-width="3" stroke-dasharray="12 88" stroke-dashoffset="20" stroke-linecap="round" ></circle>
           <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#FF9F00" stroke-width="3" stroke-dasharray="40 88" stroke-dashoffset="10" stroke-linecap="round" ></circle>
@@ -323,7 +329,7 @@
                 <span class="medium-rectangle color-yellow rectangle-documents__1"> </span>
                 <div class="setting-text documents1"> Documents</div>
                 <div class="files1"> 720 files </div>
-                <div class="storage-line-rows"></div>
+                <!-- <div class="storage-line-rows"></div> -->
                 <div class="grid-documents__data1">200G</div>
             </div>
             
@@ -336,7 +342,7 @@
                 <span class="medium-rectangle color-blue rectangle-documents__1"> </span>
                 <div class="setting-text documents1"> Documents</div>
                 <div class="files1"> 720 files </div>
-                <div class="storage-line-rows"></div>
+                <!-- <div class="storage-line-rows"></div> -->
                 <div class="grid-documents__data1">125G</div>
             </div>
         </div>
@@ -347,17 +353,15 @@
                 <div class="setting-text documents1"> Documents</div>
                 <div class="files1"> 720 files </div>
                 <div class="grid-documents__data1">75G</div>
-                <div class="storage-line-rows"></div>
             </div>
         </div>
         
-        <div class="documents-row">
+        <div class="documents-row row-last">
             <div class="grid-documents">
                 <span class="medium-rectangle color-grey rectangle-documents__1"> </span>
                 <div class="setting-text documents1"> Documents</div>
                 <div class="files1"> 720 files </div>
                 <div class="grid-documents__data1">50G</div>
-                <div class="storage-line-rows"></div>
             </div>
         </div>
         
@@ -366,11 +370,13 @@
         
       <div class="central-store-upgrade">
             <div class="box-upgrade">
-                <div class="storage-upgrade">
+                <div class="storage-upgrade"> 
                     <div class="rectangleColor storage_rectangle "></div>
                     <div class="upgrade-buy">Buy more space now </div>
-                    <div class="setting-litle__letter" style="margin-bottom: 5%; padding: 4%;">Upgrade to cloud premiun</div>
+                    <div class="setting-litle__letter" >Upgrade to cloud premiun</div>
+                    <div class="centre">
                     <div class="btn-upgradeAccount">Upgrade Account!</div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -378,7 +384,7 @@
 
         </div>
 
-        <div class="resumenData-row"></div>
+        <!-- <div class="resumenData-row"></div> -->
       </div>
     </div>
   </body>

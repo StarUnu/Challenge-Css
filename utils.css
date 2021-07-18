@@ -1,31 +1,39 @@
 :root {
-  --hight40: 3.90625vh;
-  --hight24: 2.34375vh;
-  --hight384Space:37.5vh;
-  --hight120:11.711vh;
+  --height56: 5.46875vh;
+  --height40: 3.90625vh;
+  --height24: 2.34375vh;
+  --height20: 1.953125vh;
+  --height16: 1.562vh;
+  --height10: 0.97656vh;
+  --height8: 0.7812vh;
+  --height9: 0.8789vh;
+  --height384Space: 37.5vh;
+  --height384SpaceSmallDisplay: 30.5vh;
+  --height120: 11.711vh;
+  --background: #f5f6fc;
 }
 .rectangle {
   border-radius: 4px;
   border: none;
   /* width: 10.714%; */
- /*  height: 3.90625%; */
+  /*  height: 3.90625%; */
 }
 
 .small__rectangle {
-  width: 16px;/* 1.11vw; */
-  height: 16px;/* 1.5625vh; */
+  width: 1.11vw; /* 1.11vw; */
+  height: 1.5625vh; /* 1.5625vh; */
   border-radius: 4px;
-  background-color: #858A9D;
+  background-color: #858a9d;
   margin-right: 3.5714%;
- /*  width: 7.14285%;
+  /*  width: 7.14285%;
   height: 1.5625%; */
 }
 
 .medium-rectangle {
-  width: 24px;
-  height: 24px;
+  width: 2.343vh;
+  height: 2.343vh;
   border-radius: 4px;
-  background-color: #858A9D;
+  background-color: #858a9d;
 }
 
 .color-yellow {
@@ -49,7 +57,7 @@ section {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: var(--height24); /* 24px; */
   line-height: 23px;
   color: #343951;
   /* margin-left: 2.7777vw; */

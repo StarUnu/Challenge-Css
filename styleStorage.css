@@ -192,21 +192,24 @@
 }
 
 .storage_rectangle {
-  width: 208px;
+  width: 12.108vw; /* 208px; */
   height: 4.687vh;
   align-items: flex-start;
   margin-bottom: var(--height24);
 }
 
 .btn-upgradeAccount {
-  width: 154px;
+  width: 11.185vw;
+  height: var(--height40);
   background-color: #ff9f00;
   border-radius: 5px;
   color: #ffffff;
   font-size: var(--height16);
-  padding: var(--height8);
+  padding-top: var(--height8);
+  padding-bottom: var(--height8);
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .rectangle-documents__1 {
   grid-column: 1 / 2;

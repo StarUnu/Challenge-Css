@@ -20,11 +20,11 @@
 }
 
 .small__rectangle {
-  width: 1.11vw; /* 1.11vw; */
-  height: 1.5625vh; /* 1.5625vh; */
+  width: 16px; /* 1.11vw; */
+  height: 16px; /* 1.5625vh; */
   border-radius: 4px;
   background-color: #858a9d;
-  margin-right: 3.5714%;
+  margin-right: 8px; /* 3.5714%; */
   /*  width: 7.14285%;
   height: 1.5625%; */
 }

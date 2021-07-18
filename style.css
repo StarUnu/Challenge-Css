@@ -60,7 +60,7 @@ a {
   color: #858a9d;
   font-weight: 500;
   text-decoration: none;
-  line-height: var(--height24);
+  line-height: 24px; /*  var(--height24); */
   margin-left: 1.131292vw;
 }
 
@@ -149,8 +149,8 @@ a {
 }
 
 .grid-sidebar__rectangle {
-  width: 1.69712vw; /* 2.3437vh; */ /* 24px; */
-  height: var(--height24);
+  width: 24px; /* 2.3437vh; */ /* 24px; */
+  height: 24px;
   background-color: #858a9d;
   box-sizing: border-box;
   border-radius: 4px;

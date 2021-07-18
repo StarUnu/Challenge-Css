@@ -51,18 +51,22 @@
   justify-content: space-between;
   align-items: center;
 }
-
-.grey-rectangles__row,
 .info-user__div {
   display: flex;
-  justify-content: space-evenly;
-  width: 90px;
+  width: 8.7887vw; /* 48px; */
+  justify-content: flex-end;
+}
+.grey-rectangles__row {
+  display: flex;
+  width: 3.486vw; /* 48px; */
+  justify-content: space-between;
 }
 .info-user__setting {
   font-size: 12px;
   line-height: 14px;
   color: #858a9d;
   align-self: center;
+  font-weight: 500;
 }
 
 .storage__line {
@@ -254,8 +258,8 @@
 
 .info-user__rectangle {
   background-color: #c8ccdb;
-  height: 24px;
-  width: 24px;
+  height: var(--height24);
+  width: 1.5432vw; /*24px*/
 }
 
 svg {
@@ -287,4 +291,45 @@ svg {
 .review-documents {
   margin-top: var(--height24); /* change  this*/
   margin-bottom: var(--height40);
+}
+
+.userCircle-square {
+  width: 24px;
+  height: 24; /* var(--height24); */
+  background-color: transparent;
+  margin-left: 1.3800673vw;
+}
+
+.circle {
+  display: grid;
+  grid-template-columns: 24px;
+  grid-template-rows: 24px;
+  width: 18px;
+  height: 18px; /*  var(--height18); */
+  border-radius: 18px;
+  border: 2px solid #858a9d;
+}
+.userCircle-body {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  width: 15.5px;
+  height: 15.5px;
+  border-radius: 15.5px;
+  z-index: 10;
+  border: 2.4px solid #858a9d;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  margin-left: 1px;
+  margin-top: 10.5px;
+}
+.userCircle-head {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  width: 5.5px;
+  height: 5.5px;
+  border-radius: 7px;
+  border: 2px solid #858a9d;
+  margin-top: 2.5px;
+  margin-left: 4px;
 }

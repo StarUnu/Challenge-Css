@@ -1,7 +1,7 @@
 /* style all Storage*/
 .grid-resumenData {
-  padding-top: 3.90625vh;
-  padding-bottom: 3.90625vh;
+  padding-top: var(--height40);
+  padding-bottom: var(--height40);
   padding-left: 2.7901vw;
   padding-right: 2.7901vw;
 }
@@ -189,6 +189,7 @@
   font-size: var(--height16);
   display: flex;
   justify-content: center;
+  margin-bottom: var(--height8);
 }
 
 .storage_rectangle {

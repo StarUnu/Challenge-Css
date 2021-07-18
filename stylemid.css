@@ -63,8 +63,8 @@
   width: 20%;
 }
 .grid-data {
-  padding-top: 3.90625vh;
-  padding-bottom: 3.90625vh;
+  padding-top: var(--height40);
+  padding-bottom: var(--height40);
   padding-left: 2.7901vw;
   padding-right: 2.7901vw;
 }
@@ -88,8 +88,8 @@
 }
 
 .palito-search {
-  margin-top: 1.953vh;
-  margin-left: 1.953vh;
+  margin-top: var(--height20);
+  margin-left: var(--height20);
   width: 0px;
   border-radius: 2px;
   height: 4.56px;
@@ -342,13 +342,12 @@
   flex-direction: row;
 }
 
-@media (max-height: 1090px) {
+/*Testing my computer*/
+/* @media (max-height: 1090px) {
   .Rectangle-2 {
     margin-bottom: -0.781vh;
-    /* margin-bottom: -0.9vh; */ /*  -1.46vh; */
-    /* -0.781vh; */
   }
-}
+} */
 
 @media (min-width: 500px) {
   .col-1-1-head {
@@ -435,7 +434,7 @@
   color: #343951;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.5625vh; /* 16px; */
+  font-size: var(--height16);
   height: 2.343vh;
 }
 .recentlyUsed-created_name,
@@ -445,5 +444,5 @@
   letter-spacing: 0.05em;
 }
 .recentfiles {
-  margin-bottom: var(--height56); /* 3.90625vh; */
+  margin-bottom: var(--height56);
 }

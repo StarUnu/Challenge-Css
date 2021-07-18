@@ -7,9 +7,12 @@
   --height10: 0.97656vh;
   --height8: 0.7812vh;
   --height9: 0.8789vh;
+  --height2: 0.1953125vh;
   --height384Space: 37.5vh;
   --height384SpaceSmallDisplay: 30.5vh;
   --height120: 11.711vh;
+  --height144: 14.0625vh;
+
   --background: #f5f6fc;
 }
 .rectangle {
